@@ -20,7 +20,7 @@ $(document).ready(function(){
     
     //Image growth
     $('#profile-image').animate({
-        width: "25%",
-        height: "50%"
+        width: "400px",
+        height: "400px"
   }, 1500);  
 });
