@@ -1,1 +1,1 @@
-# thelostexplorer.github.io
+# the-lost-explorer.github.io
