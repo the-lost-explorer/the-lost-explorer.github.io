@@ -8,7 +8,7 @@ window.mobilecheck = function() {
 };
 
 /*
- * Redirect if mobile browser
+ * Redirect if mobile browser - WARNING for me from the future: Do not includde index.js anywhere in the mobile site's code.
 */
 if(window.mobilecheck()&&window.location.href!="./index-m.html")
     window.location.href = "./html/index-m.html";
@@ -17,7 +17,6 @@ if(window.mobilecheck()&&window.location.href!="./index-m.html")
  * When DOM gets loaded run the following stuff
 */
 $(document).ready(function(){
-    
     //Image growth
     $('#profile-image').animate({
         width: "400px",
