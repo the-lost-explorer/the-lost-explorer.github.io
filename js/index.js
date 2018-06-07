@@ -17,9 +17,11 @@ if(window.mobilecheck()&&window.location.href!="./index-m.html")
  * When DOM gets loaded run the following stuff
 */
 $(document).ready(function(){
-    //Image growth
+    //Init animation
+    $('.init-animation').hide();
+    $('.init-animation').fadeIn(5000);
     $('#profile-image').animate({
-        width: "400px",
-        height: "400px"
+        width: "300px",
+        height: "300px"
   }, 1500);  
 });

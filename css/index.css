@@ -1,3 +1,7 @@
+#body{
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
 #profile-image{
     width: 0;
     height: 0;
@@ -7,4 +11,27 @@
     left: 0;
     right: 0;
     margin: auto;
+}
+
+#title{
+    font-family: 'Caveat', cursive;
+    font-size: 100px;
+    margin-top: 100px;
+}
+
+#description{
+    font-size: 20px;
+}
+
+#info-links{
+    margin-left: 0;
+    margin-right: 0;
+    margin: auto;
+    margin-top: 400px;
+    width: 700px;
+}
+
+.info-table-element{
+    padding-right: 50px;
+    padding-left: 50px;
 }
