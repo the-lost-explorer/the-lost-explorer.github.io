@@ -16,12 +16,8 @@ if(window.mobilecheck()&&window.location.href!="./index-m.html")
 /*
  * When DOM gets loaded run the following stuff
 */
-$('body').hide();
+
 $(document).ready(function(){
-    $('body').show();
-    //Init animation
-    $('.init-animation').hide();
-    $('.init-animation').fadeIn(5000);
     $('#profile-image').animate({
         width: "300px",
         height: "300px"
