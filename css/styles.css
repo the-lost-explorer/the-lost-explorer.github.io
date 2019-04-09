@@ -1,0 +1,25 @@
+body{
+    font-family: 'Abril Fatface', cursive;
+    color: black;
+    height: 100%;
+    background-color: #FFFFFF;
+}
+
+.is-size-0{
+    font-size: 54px;
+}
+
+.border{
+    border: 0px solid black;
+}
+
+.padding-top{
+    padding-top: 60px;
+}
+
+.fixed{
+    position: fixed;
+    top: 27%;
+    right: 0px;
+
+}
